@@ -24,13 +24,14 @@ else if( lname.length<=2){
    }
     else
    {
-       FirstName = name.toUpperCase();
-       LastName = lname.toUpperCase();
-       if(FirstName=='AYUSH' && LastName=='NISHA' || FirstName =='NISHA' && LastName =='AYUSH"){
-           document.getElementById("answer").value= 99 +" %";
-          }
+       
        var love=Math.random()*100;
        love=Math.floor(love);
        document.getElementById("answer").value=love +" %";
+       FirstName = name.toUpperCase();
+       LastName = lname.toUpperCase();
+       if(FirstName=='AYUSH' && LastName=='NISHA' || FirstName =='NISHA' && LastName =='AYUSH"){
+           document.getElementById("answer").value= 99.999 +" %";
+          }
    }
 }

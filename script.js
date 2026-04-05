@@ -31,7 +31,7 @@ else if( lname.length<=2){
        FirstName = name.toUpperCase();
        LastName = lname.toUpperCase();
        if(FirstName=='AYUSH' && LastName=='NISHA' || FirstName =='NISHA' && LastName =='AYUSH"){
-           document.getElementById("answer").value= 99.999 +" %";
+           document.getElementById("answer").value=  "99.999 %";
           }
    }
 }

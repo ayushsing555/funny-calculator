@@ -22,8 +22,13 @@ else if( lname.length<=2){
    {
     alert("Numbers are not allowed");
    }
-   else
+    else
    {
+       FirstName = name.toUpperCase();
+       LastName = lname.toUpperCase();
+       if(FirstName=='AYUSH' && LastName=='NISHA' || FirstName =='NISHA' && LastName =='AYUSH"){
+           document.getElementById("answer").value= 99 +" %";
+          }
        var love=Math.random()*100;
        love=Math.floor(love);
        document.getElementById("answer").value=love +" %";
